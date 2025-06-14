@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/api/gemini',
-        destination: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
+        destination: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=:apiKey',
       },
     ]
   },
